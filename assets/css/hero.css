@@ -154,10 +154,17 @@ body {
   width: 300px;
   margin: 0px auto;
   margin-bottom: 20px;
+  box-sizing: border-box;
   background-color: #31631E;
+  color: white;
 }
 
 .form-name::placeholder {
+  color: white;
+}
+
+.form-name:focus {
+  background-color: #31631E;
   color: white;
 }
 
@@ -165,7 +172,17 @@ body {
   color: white;
 }
 
+.form-email:focus {
+  background-color: #31631E;
+  color: white;
+}
+
 .form-message::placeholder {
+  color: white;
+}
+
+.form-message:focus {
+  background-color: #31631E;
   color: white;
 }
 
@@ -174,6 +191,7 @@ body {
   margin: 0 auto;
   margin-bottom: 20px;
   background-color: #31631E;
+  color: white;
 }
 
 .form-message {
@@ -182,6 +200,7 @@ body {
   margin: 0 auto;
   margin-bottom: 20px;
   background-color: #31631E;
+  color: white;
 }
 
 .submit-button {
